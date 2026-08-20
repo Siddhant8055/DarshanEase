@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
 });
 
 // Centralized Error Handling Middleware
-app.use((err, req, res, next) => {
+app.use((err, req, res, _next) => {
   let statusCode = res.statusCode === 200 ? 500 : res.statusCode;
   let message = err.message || 'Internal Server Error';
 

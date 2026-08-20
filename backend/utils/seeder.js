@@ -1,8 +1,6 @@
-import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import Temple from '../models/templeModel.js';
 import Slot from '../models/slotModel.js';
-import User from '../models/userModel.js';
 import connectDB from '../config/db.js';
 
 // Load env variables
