@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7E29" />
+      <stop offset="50%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#2C3E50" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#FFB300" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF9933" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2C3E50" />
+      <stop offset="100%" stop-color="#1A252F" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#skyGrad)" />
+  
+  <!-- Sacred Sun Glow & Rays -->
+  <circle cx="400" cy="200" r="180" fill="url(#sunGlow)" />
+
+  <!-- Holy River Ganges Base -->
+  <rect y="400" width="800" height="100" fill="url(#waterGrad)" />
+  <path d="M0 400 Q 200 390, 400 400 T 800 400 L 800 500 L 0 500 Z" fill="#243342" opacity="0.6" />
+  
+  <!-- Ghats Stairs -->
+  <rect x="150" y="380" width="500" height="8" fill="url(#goldGrad)" opacity="0.7" />
+  <rect x="180" y="388" width="440" height="8" fill="url(#goldGrad)" opacity="0.5" />
+  <rect x="210" y="396" width="380" height="8" fill="url(#goldGrad)" opacity="0.3" />
+
+  <!-- Temple Structure (Kashi Vishwanath Golden Spire) -->
+  <!-- Base Foundation -->
+  <rect x="280" y="270" width="240" height="110" fill="#1C2833" rx="4" />
+  <rect x="300" y="250" width="200" height="30" fill="url(#goldGrad)" rx="2" />
+  
+  <!-- Central Mandir Shikhara (Golden Saffron Tower) -->
+  <path d="M 400 90 Q 420 180, 450 250 L 350 250 Q 380 180, 400 90 Z" fill="url(#goldGrad)" />
+  <!-- Side Shikhara left -->
+  <path d="M 330 170 Q 345 220, 360 270 L 300 270 Q 315 220, 330 170 Z" fill="url(#goldGrad)" opacity="0.9" />
+  <!-- Side Shikhara right -->
+  <path d="M 470 170 Q 485 220, 500 270 L 440 270 Q 455 220, 470 170 Z" fill="url(#goldGrad)" opacity="0.9" />
+
+  <!-- Kalash & Trishul at Peak -->
+  <circle cx="400" cy="85" r="8" fill="#FFF8E7" />
+  <rect x="398" y="55" width="4" height="30" fill="#FFF8E7" />
+  <!-- Saffron Dhwaja (Flag) -->
+  <path d="M 402 55 L 435 65 L 402 75 Z" fill="#FF9933" />
+
+  <!-- Temple Entrance Arch -->
+  <path d="M 370 380 L 370 320 Q 400 300, 430 320 L 430 380 Z" fill="#0E171E" />
+  <circle cx="400" cy="330" r="12" fill="#D4AF37" opacity="0.8" />
+
+  <!-- Decorative Pillars -->
+  <rect x="310" y="280" width="12" height="90" fill="url(#goldGrad)" />
+  <rect x="340" y="280" width="12" height="90" fill="url(#goldGrad)" />
+  <rect x="448" y="280" width="12" height="90" fill="url(#goldGrad)" />
+  <rect x="478" y="280" width="12" height="90" fill="url(#goldGrad)" />
+
+  <!-- Title Badge -->
+  <rect x="250" y="440" width="300" height="36" rx="18" fill="rgba(0,0,0,0.6)" />
+  <text x="400" y="464" font-family="'Segoe UI', Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    KASHI VISHWANATH JYOTIRLINGA
+  </text>
+</svg>

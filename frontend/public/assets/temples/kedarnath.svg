@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="himalayaSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D47A1" />
+      <stop offset="40%" stop-color="#1976D2" />
+      <stop offset="80%" stop-color="#90CAF9" />
+      <stop offset="100%" stop-color="#E3F2FD" />
+    </linearGradient>
+    <linearGradient id="snowPeak" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#ECEFF1" />
+      <stop offset="100%" stop-color="#B0BEC5" />
+    </linearGradient>
+    <linearGradient id="greyStone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78909C" />
+      <stop offset="50%" stop-color="#455A64" />
+      <stop offset="100%" stop-color="#263238" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#himalayaSky)" />
+
+  <!-- Snow-capped Himalayan Peaks (Kedarnath Massif) -->
+  <polygon points="400,60 200,280 600,280" fill="url(#snowPeak)" />
+  <polygon points="180,120 50,300 350,300" fill="url(#snowPeak)" opacity="0.9" />
+  <polygon points="620,110 450,300 780,300" fill="url(#snowPeak)" opacity="0.9" />
+  
+  <!-- Valley Ground (Rocky Mountain Terrain) -->
+  <rect y="280" width="800" height="220" fill="#37474F" />
+  <rect y="360" width="800" height="140" fill="#263238" />
+
+  <!-- Ancient Kedarnath Stone Temple Structure -->
+  <!-- Main Mandap Base -->
+  <rect x="270" y="270" width="260" height="110" fill="url(#greyStone)" rx="2" />
+  
+  <!-- Central Stone Shikhara -->
+  <path d="M 370 140 Q 380 210, 400 270 L 330 270 Q 355 210, 370 140 Z" fill="url(#greyStone)" />
+  <!-- Slanted Roof Front Mandap -->
+  <polygon points="450,230 380,270 520,270" fill="#1C2833" />
+  
+  <!-- Shikhara Amalak & Gold Kalash -->
+  <ellipse cx="370" cy="138" rx="14" ry="5" fill="#B0BEC5" />
+  <circle cx="370" cy="128" r="6" fill="#FFD700" />
+  <rect x="368" y="105" width="4" height="23" fill="#FFD700" />
+  <!-- Saffron Flag -->
+  <path d="M 372 105 L 405 115 L 372 125 Z" fill="#FF5722" />
+
+  <!-- Temple Entrance Stone Arch -->
+  <path d="M 430 380 L 430 325 Q 455 310, 480 325 L 480 380 Z" fill="#0F171E" />
+  
+  <!-- Nandi Statue (Small Stone Bull at Front) -->
+  <ellipse cx="455" cy="390" rx="14" ry="8" fill="#546E7A" />
+  <circle cx="445" cy="386" r="6" fill="#546E7A" />
+
+  <!-- Title Badge -->
+  <rect x="250" y="440" width="300" height="36" rx="18" fill="rgba(0,0,0,0.6)" />
+  <text x="400" y="464" font-family="'Segoe UI', Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    KEDARNATH JYOTIRLINGA
+  </text>
+</svg>

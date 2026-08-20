@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="elloraSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4E342E" />
+      <stop offset="45%" stop-color="#BF360C" />
+      <stop offset="85%" stop-color="#FFAB91" />
+      <stop offset="100%" stop-color="#FFF3E0" />
+    </linearGradient>
+    <linearGradient id="redBasaltStone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A1887F" />
+      <stop offset="50%" stop-color="#8D6E63" />
+      <stop offset="100%" stop-color="#5D4037" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#elloraSky)" />
+
+  <!-- Ellora Rocky Hills Ridge -->
+  <polygon points="350,150 50,330 650,330" fill="#4E342E" opacity="0.8" />
+  <polygon points="600,160 400,340 790,340" fill="#3E2723" opacity="0.85" />
+  
+  <!-- Base Stone Platform Courtyard -->
+  <rect y="360" width="800" height="140" fill="#3E2723" />
+  <rect y="375" width="800" height="125" fill="#2E1B0D" />
+
+  <!-- Ahilyabai Holkar 5-Tier Red Stone Shikhara Architecture -->
+  <!-- Base Mandap -->
+  <rect x="250" y="270" width="300" height="105" fill="url(#redBasaltStone)" rx="3" />
+
+  <!-- Grand 5-Tier Carved Shikhara -->
+  <path d="M 400 80 Q 425 170, 445 270 L 355 270 Q 375 170, 400 80 Z" fill="url(#redBasaltStone)" />
+  
+  <!-- Carved Band Details -->
+  <rect x="365" y="220" width="70" height="10" fill="#3E2723" />
+  <rect x="375" y="175" width="50" height="8" fill="#3E2723" />
+  <rect x="382" y="130" width="36" height="7" fill="#3E2723" />
+
+  <!-- Pure Gold Kalash & Trident Flag -->
+  <ellipse cx="400" cy="76" r="14" ry="5" fill="#BCAAA4" />
+  <circle cx="400" cy="65" r="7" fill="#FFD700" />
+  <rect x="398" y="38" width="4" height="27" fill="#FFD700" />
+  <path d="M 402 38 L 438 48 L 402 58 Z" fill="#FF9933" />
+
+  <!-- Sabha Mandap Pillars & Carvings -->
+  <rect x="280" y="280" width="10" height="85" fill="#3E2723" />
+  <rect x="320" y="280" width="10" height="85" fill="#3E2723" />
+  <rect x="470" y="280" width="10" height="85" fill="#3E2723" />
+  <rect x="510" y="280" width="10" height="85" fill="#3E2723" />
+
+  <!-- Nandi Mandap & Entrance Portal -->
+  <path d="M 370 375 L 370 320 Q 400 300, 430 320 L 430 375 Z" fill="#1C0E0B" />
+  <ellipse cx="400" cy="385" rx="14" ry="7" fill="#795548" /> <!-- Nandi Bull -->
+
+  <!-- Title Badge -->
+  <rect x="230" y="440" width="340" height="36" rx="18" fill="rgba(0,0,0,0.6)" />
+  <text x="400" y="464" font-family="'Segoe UI', Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    GRISHNESHWAR 12TH JYOTIRLINGA
+  </text>
+</svg>

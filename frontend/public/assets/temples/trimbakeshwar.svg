@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nashikSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B5E20" />
+      <stop offset="40%" stop-color="#2E7D32" />
+      <stop offset="80%" stop-color="#81C784" />
+      <stop offset="100%" stop-color="#C8E6C9" />
+    </linearGradient>
+    <linearGradient id="blackBasalt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#424242" />
+      <stop offset="50%" stop-color="#212121" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#nashikSky)" />
+
+  <!-- Brahmagiri Mountain Range (Origin of Godavari) -->
+  <polygon points="400,100 150,320 650,320" fill="#1B5E20" opacity="0.9" />
+  <polygon points="180,160 20,340 340,340" fill="#2E7D32" opacity="0.8" />
+  <polygon points="620,150 460,340 780,340" fill="#2E7D32" opacity="0.8" />
+
+  <!-- Kushavarta Kund (Sacred Water Tank) -->
+  <rect y="380" width="800" height="120" fill="#2E7D32" />
+  <rect y="400" width="800" height="100" fill="#1565C0" opacity="0.8" />
+
+  <!-- Hemadpanthi Black Stone Temple Structure -->
+  <!-- Base Mandap -->
+  <rect x="250" y="270" width="300" height="110" fill="url(#blackBasalt)" rx="3" />
+
+  <!-- Grand Nagara Shikhara -->
+  <path d="M 400 90 Q 425 180, 450 270 L 350 270 Q 375 180, 400 90 Z" fill="url(#blackBasalt)" />
+  <ellipse cx="400" cy="85" r="14" ry="6" fill="#616161" />
+  <circle cx="400" cy="74" r="7" fill="#FFD700" />
+  <rect x="398" y="48" width="4" height="26" fill="#FFD700" />
+  <path d="M 402 48 L 435 58 L 402 68 Z" fill="#FF9933" />
+
+  <!-- Sculpted Stone Mandap Arches -->
+  <path d="M 370 380 L 370 320 Q 400 300, 430 320 L 430 380 Z" fill="#000000" />
+  <circle cx="400" cy="315" r="10" fill="#D4AF37" /> <!-- Tridev Lingam Symbol -->
+
+  <!-- Side Stone Shikhara Domes -->
+  <path d="M 290 200 Q 305 240, 320 270 L 260 270 Q 275 240, 290 200 Z" fill="url(#blackBasalt)" />
+  <path d="M 510 200 Q 525 240, 540 270 L 480 270 Q 495 240, 510 200 Z" fill="url(#blackBasalt)" />
+
+  <!-- Title Badge -->
+  <rect x="230" y="440" width="340" height="36" rx="18" fill="rgba(0,0,0,0.6)" />
+  <text x="400" y="464" font-family="'Segoe UI', Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    TRIMBAKESHWAR JYOTIRLINGA
+  </text>
+</svg>

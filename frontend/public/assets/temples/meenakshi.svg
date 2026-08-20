@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="meenakshiSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#004D40" />
+      <stop offset="50%" stop-color="#00897B" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </linearGradient>
+    <linearGradient id="gopuramColor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E91E63" />
+      <stop offset="30%" stop-color="#9C27B0" />
+      <stop offset="60%" stop-color="#3F51B5" />
+      <stop offset="85%" stop-color="#FF9800" />
+      <stop offset="100%" stop-color="#4CAF50" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#meenakshiSky)" />
+
+  <!-- Base Pond / Lotus Tank (Potramarai Kulam) -->
+  <rect y="400" width="800" height="100" fill="#004D40" />
+  <rect y="415" width="800" height="85" fill="#00695C" opacity="0.6" />
+  <circle cx="400" cy="440" r="14" fill="#FFD700" opacity="0.8" /> <!-- Golden Lotus Pillar -->
+
+  <!-- Grand Dravidian Gopuram (Layered Pyramidal Gateway Tower) -->
+  <!-- Tier 1 -->
+  <polygon points="400,60 380,100 420,100" fill="url(#gopuramColor)" />
+  <rect x="375" y="100" width="50" height="6" fill="#D4AF37" />
+
+  <!-- Tier 2 -->
+  <polygon points="375,106 355,150 445,150 425,106" fill="url(#gopuramColor)" />
+  <rect x="350" y="150" width="100" height="6" fill="#D4AF37" />
+
+  <!-- Tier 3 -->
+  <polygon points="350,156 330,205 470,205 450,156" fill="url(#gopuramColor)" />
+  <rect x="325" y="205" width="150" height="6" fill="#D4AF37" />
+
+  <!-- Tier 4 -->
+  <polygon points="325,211 300,265 500,265 475,211" fill="url(#gopuramColor)" />
+  <rect x="295" y="265" width="210" height="6" fill="#D4AF37" />
+
+  <!-- Tier 5 -->
+  <polygon points="295,271 265,330 535,330 505,271" fill="url(#gopuramColor)" />
+  <rect x="260" y="330" width="280" height="8" fill="#D4AF37" />
+
+  <!-- Base Gateway Block -->
+  <rect x="240" y="338" width="320" height="65" fill="#37474F" rx="3" />
+  
+  <!-- Sculptures Rows (Represented with decorative studs) -->
+  <circle cx="390" cy="85" r="3" fill="#FFF" />
+  <circle cx="410" cy="85" r="3" fill="#FFF" />
+  <circle cx="380" cy="130" r="3" fill="#FFF" />
+  <circle cx="420" cy="130" r="3" fill="#FFF" />
+  <circle cx="360" cy="180" r="3" fill="#FFF" />
+  <circle cx="440" cy="180" r="3" fill="#FFF" />
+
+  <!-- 5 Golden Kalash at Tower Apex -->
+  <circle cx="400" cy="52" r="5" fill="#FFD700" />
+  <circle cx="388" cy="54" r="4" fill="#FFD700" />
+  <circle cx="412" cy="54" r="4" fill="#FFD700" />
+  <circle cx="376" cy="57" r="3" fill="#FFD700" />
+  <circle cx="424" cy="57" r="3" fill="#FFD700" />
+
+  <!-- Grand Gateway Arch Entrance -->
+  <path d="M 365 403 L 365 355 Q 400 340, 435 355 L 435 403 Z" fill="#212121" />
+
+  <!-- Title Badge -->
+  <rect x="240" y="440" width="320" height="36" rx="18" fill="rgba(0,0,0,0.6)" />
+  <text x="400" y="464" font-family="'Segoe UI', Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    MEENAKSHI AMMAN TEMPLE
+  </text>
+</svg>

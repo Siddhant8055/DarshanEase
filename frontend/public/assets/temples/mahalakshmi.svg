@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kolhapurSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#880E4F" />
+      <stop offset="50%" stop-color="#AD1457" />
+      <stop offset="85%" stop-color="#FF8A80" />
+      <stop offset="100%" stop-color="#FFD180" />
+    </linearGradient>
+    <linearGradient id="chalukyaStone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6D4C41" />
+      <stop offset="50%" stop-color="#4E342E" />
+      <stop offset="100%" stop-color="#271915" />
+    </linearGradient>
+    <radialGradient id="kiranotsavGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF59D" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#FFD54F" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#FF6F00" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#kolhapurSky)" />
+
+  <!-- Sun Rays Festival (Kiranotsav) Glow -->
+  <circle cx="400" cy="200" r="170" fill="url(#kiranotsavGlow)" />
+
+  <!-- Base Stone Courtyard -->
+  <rect y="370" width="800" height="130" fill="#3E2723" />
+  <rect y="385" width="800" height="115" fill="#2E1B0D" />
+
+  <!-- Chalukyan Hemadpanthi Temple Architecture -->
+  <!-- Base Sanctum Block -->
+  <rect x="250" y="270" width="300" height="105" fill="url(#chalukyaStone)" rx="3" />
+
+  <!-- 5 Shikhara Towers (Main Mahalakshmi & Parivar Devatas) -->
+  <!-- Central Shikhara -->
+  <path d="M 400 90 Q 425 180, 445 270 L 355 270 Q 375 180, 400 90 Z" fill="url(#chalukyaStone)" />
+  <ellipse cx="400" cy="85" r="14" ry="5" fill="#BCAAA4" />
+  <circle cx="400" cy="74" r="7" fill="#FFD700" />
+  <rect x="398" y="48" width="4" height="26" fill="#FFD700" />
+  <path d="M 402 48 L 435 58 L 402 68 Z" fill="#D50000" />
+
+  <!-- Flanking Towers -->
+  <path d="M 310 160 Q 325 210, 340 270 L 280 270 Q 295 210, 310 160 Z" fill="url(#chalukyaStone)" />
+  <path d="M 490 160 Q 505 210, 520 270 L 460 270 Q 475 210, 490 160 Z" fill="url(#chalukyaStone)" />
+
+  <!-- Deepamala / Stone Lamp Towers on sides -->
+  <rect x="180" y="230" width="16" height="145" fill="#271915" />
+  <circle cx="188" cy="225" r="6" fill="#FFD700" />
+  <rect x="604" y="230" width="16" height="145" fill="#271915" />
+  <circle cx="612" cy="225" r="6" fill="#FFD700" />
+
+  <!-- Golden Garuda Mandap Archway Entrance -->
+  <path d="M 370 375 L 370 315 Q 400 295, 430 315 L 430 375 Z" fill="#FFD700" />
+  <path d="M 380 375 L 380 325 Q 400 310, 420 325 L 420 375 Z" fill="#1A0C08" />
+
+  <!-- Title Badge -->
+  <rect x="220" y="440" width="360" height="36" rx="18" fill="rgba(0,0,0,0.6)" />
+  <text x="400" y="464" font-family="'Segoe UI', Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    SHREE MAHALAKSHMI TEMPLE KOLHAPUR
+  </text>
+</svg>

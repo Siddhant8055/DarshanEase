@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tirupatiSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A148C" />
+      <stop offset="40%" stop-color="#7B1FA2" />
+      <stop offset="80%" stop-color="#FF6F00" />
+      <stop offset="100%" stop-color="#FFD54F" />
+    </linearGradient>
+    <linearGradient id="anandaNilayam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF59D" />
+      <stop offset="50%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FFA000" />
+    </linearGradient>
+    <linearGradient id="hillsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2E7D32" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#tirupatiSky)" />
+
+  <!-- Seshachalam Hills Background -->
+  <path d="M 0 320 Q 180 200, 360 280 T 800 240 L 800 500 L 0 500 Z" fill="url(#hillsGrad)" opacity="0.9" />
+  <path d="M 0 350 Q 250 260, 500 340 T 800 310 L 800 500 L 0 500 Z" fill="#1B5E20" />
+
+  <!-- The Golden Gopuram Tower (Ananda Nilayam) -->
+  <!-- Level 1 (Top) -->
+  <polygon points="400,90 380,140 420,140" fill="url(#anandaNilayam)" />
+  <rect x="375" y="140" width="50" height="8" fill="#B78103" />
+
+  <!-- Level 2 -->
+  <polygon points="370,148 350,200 450,200 430,148" fill="url(#anandaNilayam)" />
+  <rect x="345" y="200" width="110" height="10" fill="#B78103" />
+
+  <!-- Level 3 -->
+  <polygon points="340,210 315,280 485,280 460,210" fill="url(#anandaNilayam)" />
+  <rect x="310" y="280" width="180" height="12" fill="#B78103" />
+
+  <!-- Level 4 (Base Gopuram) -->
+  <polygon points="305,292 270,370 530,370 495,292" fill="url(#anandaNilayam)" />
+  <rect x="260" y="370" width="280" height="45" fill="url(#anandaNilayam)" rx="2" />
+
+  <!-- Kalash Golden Spires (3 Kalash on top) -->
+  <circle cx="400" cy="80" r="7" fill="#FFFDE7" />
+  <circle cx="388" cy="84" r="5" fill="#FFFDE7" />
+  <circle cx="412" cy="84" r="5" fill="#FFFDE7" />
+  <rect x="398" y="55" width="4" height="25" fill="#FFFDE7" />
+
+  <!-- Sacred Tilak / Namam in Center -->
+  <rect x="395" y="315" width="10" height="35" fill="#FFFFFF" />
+  <rect x="382" y="315" width="8" height="28" fill="#FFFFFF" />
+  <rect x="410" y="315" width="8" height="28" fill="#FFFFFF" />
+  <rect x="398" y="325" width="4" height="25" fill="#E53935" />
+
+  <!-- Temple Entrance Door -->
+  <path d="M 370 415 L 370 365 Q 400 345, 430 365 L 430 415 Z" fill="#3E2723" />
+
+  <!-- Title Badge -->
+  <rect x="240" y="440" width="320" height="36" rx="18" fill="rgba(0,0,0,0.6)" />
+  <text x="400" y="464" font-family="'Segoe UI', Poppins, sans-serif" font-size="16" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    SRI TIRUPATI BALAJI TEMPLE
+  </text>
+</svg>
